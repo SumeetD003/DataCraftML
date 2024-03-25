@@ -12,16 +12,16 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
-st.title('NO CODE ML CONFIG')
+st.title('NO CODE ML CONFIG 💻💻')
 
 st.write("""
 # Explore different models and classifiers
-# Which one is the best?
+# Which one is the best❓❓❓🤔
 """)
 
 dataset_name = st.sidebar.selectbox(
     'Select Dataset',
-    ('Iris', 'Breast Cancer', 'Wine','Diabetes')
+    ('Iris 👁️', 'Breast Cancer ♋', 'Wine 🍷','Diabetes 💊')
 )
 
 st.write(f"## {dataset_name} Dataset")
